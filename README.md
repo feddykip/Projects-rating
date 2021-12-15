@@ -16,7 +16,7 @@ This is a django web application where projects can be rated. A user can registe
 * Django
 * Python 
 
-
+  
 ## User stories
 A user is able to:
 
