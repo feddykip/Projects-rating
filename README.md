@@ -9,7 +9,7 @@ This is a django web application where projects can be rated. A user can registe
 2. virtualenv
 3. requirements.txt
 4. django
-  
+   
  
 ## Technologies Used
 * HTML & CSS
