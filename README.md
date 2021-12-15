@@ -5,7 +5,7 @@ Ferdinand Kiplangat
 This is a django web application where projects can be rated. A user can register an account, login and be able to rate projects.A project's image,title, description and url is required for a user to post a project to the website.
 
 ## Setup
-1. python
+1. python 
 2. virtualenv
 3. requirements.txt
 4. django 
