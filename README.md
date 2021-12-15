@@ -11,7 +11,7 @@ This is a django web application where projects can be rated. A user can registe
 4. django 
    
   
-## Technologies Used
+## Technologies Used 
 * HTML & CSS
 * Django
 * Python 
