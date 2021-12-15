@@ -32,7 +32,7 @@ A user is able to:
 View [live](https://project544.herokuapp.com/)
 
 ## License
-MIT License
+MIT License 
 
 Copyright (c) 2021 Ferdinand Kiplangat
 
