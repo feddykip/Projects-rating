@@ -1,0 +1,55 @@
+{%extends 'base.html'%}
+
+{%load static%}
+{%load bootstrap3%}
+ 
+
+
+{%block content%}
+
+<div class="box">
+</div>
+  <img src="https://res.cloudinary.com/feddykip/image/upload/v1639552121/railway-1555348_1920_gxzhha.jpg" class="img-fluid" alt="Responsive image" style="height: 500px; width:100%;">
+
+  <div class="container">
+<div class="col-md-12">
+  <div class="row">
+
+<br>
+{% for project in projects %}
+       <div class="col-md-4 container ">
+        <div class="card my-2 row">
+          <div class="image ">
+            <a href="{%url 'projects' project.id%}"><img class="image1 zoomin frame" src="{{project.image.url}}"  style="width: 200px; height: 200px;"alt="Card image cap"></a>
+            </div>
+            <div class="img-overlay">
+        
+              <small class= "img-title">{{project.description}}</small>
+              <br>
+              <a href="{%url 'projects' project.id%}" class="descr"> View</a>
+
+              </div>
+      
+
+              
+         </div>
+
+            <div class="card-body">
+              <hr>
+              <small class= "img-title">Project Name: {{project.name}}</small>
+
+              </div>
+            <a href="{%url 'projects' project.id%}" class="btn btn-outline-dark btn-sm m-1 descr"> View</a>
+          <hr>
+          
+          </div>
+       </div>
+      {%empty%}
+      <h3>No projects...</h3>
+      </div>
+
+      {%endfor%}
+
+
+
+{%endblock%}
