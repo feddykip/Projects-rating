@@ -20,7 +20,7 @@ This is a django web application where projects can be rated. A user can registe
 ## User stories
 A user is able to: 
 
-* Register account and log in
+* Register account and log in 
 * view home page and see projects posted
 * click on a project and see more details about projects posted
 * click project url and view posted project's actual website
