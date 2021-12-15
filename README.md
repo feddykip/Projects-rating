@@ -6,7 +6,7 @@ This is a django web application where projects can be rated. A user can registe
 
 ## Setup
 1. python 
-2. virtualenv
+2. virtualenv 
 3. requirements.txt
 4. django 
    
