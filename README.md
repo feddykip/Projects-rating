@@ -2,31 +2,33 @@
 ## Author
 Ferdinand Kiplangat
 ## Description
-This is a django web application where projects can be rated. A user can register an account, login and be able to rate projects.A project's image,title, description and url is required for a user to post a project to the website.Rating is done in three categories and the average is taken as the overall rating.
+This is a django web application where projects can be rated. A user can register an account, login and be able to rate projects.A project's image,title, description and url is required for a user to post a project to the website.
 
-## Setup / Installation Requirements
-1. python3.9
+## Setup
+1. python
 2. virtualenv
 3. requirements.txt
 4. django
 
 
 ## Technologies Used
-* HTML
-* Bootstrap
+* HTML & CSS
 * Django
-* Python 3
-* CSS
+* Python 
+
 
 ## User stories
-One is able to: 
+A user is able to:
 
-* View posted projects and their details
-* Post a project to be rated/reviewed
-* Rate/ review other users' projects
-* Search for projects 
-* View projects overall score
-* View my profile page
+* Register account and log in
+* view home page and see projects posted
+* click on a project and see more details about projects posted
+* click project url and view posted project's actual website
+* post a project
+* log out
+
 
 ## Live Site
-View [live]()
+View [live](https://project544.herokuapp.com/)
+
+
