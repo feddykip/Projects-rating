@@ -1,4 +1,4 @@
-# Projects Rating
+# Projects Rating 
 ## Author 
 Ferdinand Kiplangat
 ## Description
