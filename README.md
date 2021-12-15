@@ -26,7 +26,7 @@ A user is able to:
 * click project url and view posted project's actual website
 * post a project
 * log out
-
+ 
 
 ## Live Site
 View [live](https://project544.herokuapp.com/)
